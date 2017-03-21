@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>exo 2</title>
+	<title>exo 3</title>
 </head>
 <body>
 	<?php 
 	$mois = ["Janvier","Fevrier","Mars","Avril","Mai","Juin","Juillet","Aout","Septembre","Octobre","Novembre","Decembre"];
-	echo $mois[2];
+	echo $mois[5];
 	?>
 </body>
 </html>
