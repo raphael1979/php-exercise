@@ -6,7 +6,7 @@
 </head>
 <body>
 	<?php 
-	echo date('24-03-2017');
+	echo date('d-m-y');
 	?>
 </body>
 </html>
