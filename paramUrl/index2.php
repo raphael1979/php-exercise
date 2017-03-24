@@ -7,10 +7,15 @@
 <body>
 	<?php 
 
-	echo $_GET['prenom']." ";
-	echo $_GET['nom']." ";
-	echo $_GET['age']." ";
+	if (isset($_GET['prenom']) && isset($_GET['nom']) && isset($_GET['age'])) {
+		echo "les variables $prenom $nom $age existent et valent : " .$_GET['prenom'] .$_GET['nom'] .$_GET['age'];
+	}else {
+		echo "l'url n'est pas au format index.php?nom=Nemare&prenom=Jean&age=55";
+	}
 	?>
 	
 </body>
 </html>
+
+
+
