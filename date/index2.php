@@ -6,8 +6,8 @@
 </head>
 <body>
 	<?php 
-	setlocale(LC_TIME, 'fra-fra');
-	echo strftime('vendredi 24 Mars 2017, 16:25');
+	setlocale(LC_TIME, 'fr_FR.UTF8');
+	echo strftime('%A %d %B %Y, %H:%M');
 	?>
 </body>
 </html>
