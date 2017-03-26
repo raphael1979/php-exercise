@@ -7,7 +7,7 @@
 <body>
 	<?php 
 	setlocale(LC_TIME, 'fr_FR.UTF8');
-	echo strftime('%A %d %B %Y, %H:%M');
+	echo strftime('%A %d %B %Y');
 	?>
 </body>
 </html>
