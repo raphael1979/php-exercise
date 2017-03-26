@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>exo2</title>
+	<title>exo3</title>
 </head>
 <body>
 	<?php 
