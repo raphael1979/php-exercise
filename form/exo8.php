@@ -22,8 +22,10 @@
 		<input type="submit" value="Envoyer"></form>';
 	}else{
 		echo $_POST["civilit"] . " " . $_POST["name"] . " " . $_POST["first_name"]." ".$_POST["file"];
-		if(explode(".", $_POST["file"])[1]==="pdf"){
-			echo "C'est bien un pdf";
+		if(pathinfo($_POST["file"])['extension']==='pdf'){
+			echo "C'est bien un fichier pdf";
+		}else{
+			echo "Veuillez changer de fichier";
 		}
 	}
 	?>
